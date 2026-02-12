@@ -16,7 +16,7 @@ def create_user(user:User):
     global count_id
     user_details[count_id]=user
     response={
-        "message": "User Created Successfully",
+        "message": "User Created Successfully ",
         "user_id":count_id,
         "user":user_details[count_id]
     }
